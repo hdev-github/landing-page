@@ -1,0 +1,57 @@
+
+*{
+    background-color: black;
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caption{
+    font-size: 30px;
+    padding: 4px;
+}
+
+.header{
+    display:flex;
+    align-items: right;
+    justify-content:space-between
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: right;
+    justify-self: right;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.body{
+}
+
+.welcome{
+    font-size: 100px;
+    font-weight: 800;
+    display: flex;
+    justify-content: right;
+}
+
+.description{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button{
+}
+
+.button, .description{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 800;
+}
